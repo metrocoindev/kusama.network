@@ -657,6 +657,14 @@
 		"oAP": "/assets/fonts/Visuelt-Regular.woff",
 		"oF": 0
 		},
+	"/assets/fragments/banner.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fragments/banner.html",
+		"oF": 0
+		},
 	"/assets/fragments/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -679,6 +687,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/assets/fragments/hero-home.html",
+		"oF": 0
+		},
+	"/assets/fragments/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/fragments/privacy.html",
 		"oF": 0
 		},
 	"/assets/img/animation-alt.gif": {
@@ -1625,6 +1641,14 @@
 		"oS": 3,
 		"sct": 0
 		},
+	"/assets/pages/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 0
+		},
 	"/assets/pages/privacy/privacy.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1647,6 +1671,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/CNAME",
+		"oF": 0
+		},
+	"/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/home.html",
 		"oF": 0
 		},
 	"/index.html": {
