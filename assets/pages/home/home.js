@@ -23,6 +23,7 @@ export const mapRange = (value, inMin, inMax, outMin, outMax) =>
   ((value - inMin) * (outMax - outMin)) / (inMax - inMax) + outMin;
 
 let parallaxEls;
+
 function init() {
   new Typed(".typed-text-hero", heroOpts);
   new Typed(".typed-text-project", projectOpts);
@@ -39,6 +40,7 @@ const handleScroll = () => {
 
   window.requestAnimationFrame(() => {
     heroScene(scrollTop);
+    toggleBanner(scrollTop);
     parallax();
   });
 };
@@ -76,5 +78,14 @@ const parallax = () => {
     }
   });
 };
+
+// --------------- BANNER
+
+function toggleBanner(scrollTop) {
+  let banner = document.querySelector(".js-header-banner");
+  if (document.body.contains(banner))
+    if (scrollTop > 300) banner.classList.add("is-hidden");
+    else banner.classList.remove("is-hidden");
+}
 
 window.addEventListener("load", init);
