@@ -657,14 +657,6 @@
 		"oAP": "/assets/fonts/Visuelt-Regular.woff",
 		"oF": 0
 		},
-	"/assets/fragments/banner.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fragments/banner.html",
-		"oF": 0
-		},
 	"/assets/fragments/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -707,7 +699,7 @@
 		},
 	"/assets/img/animation.gif": {
 		"ft": 4194304,
-		"iS": 466206,
+		"iS": 477241,
 		"oA": 0,
 		"oAP": "/assets/img/animation.gif",
 		"oF": 0,
@@ -725,7 +717,7 @@
 		},
 	"/assets/img/bg-1.png": {
 		"ft": 32768,
-		"iS": 55764,
+		"iS": 104050,
 		"oA": 0,
 		"oAP": "/assets/img/bg-1.png",
 		"oF": 0,
@@ -736,7 +728,7 @@
 		},
 	"/assets/img/bg-2.png": {
 		"ft": 32768,
-		"iS": 128536,
+		"iS": 975541,
 		"oA": 0,
 		"oAP": "/assets/img/bg-2.png",
 		"oF": 0,
@@ -896,7 +888,7 @@
 		},
 	"/assets/img/logo-black-t.png": {
 		"ft": 32768,
-		"iS": 7407,
+		"iS": 8583,
 		"oA": 0,
 		"oAP": "/assets/img/logo-black-t.png",
 		"oF": 0,
@@ -907,7 +899,7 @@
 		},
 	"/assets/img/logo-white-t.png": {
 		"ft": 32768,
-		"iS": 7407,
+		"iS": 8583,
 		"oA": 0,
 		"oAP": "/assets/img/logo-white-t.png",
 		"oF": 0,
@@ -918,7 +910,7 @@
 		},
 	"/assets/img/media/KUSAMA_logo_1.jpg": {
 		"ft": 16384,
-		"iS": 38681,
+		"iS": 61711,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/media/KUSAMA_logo_1.jpg",
@@ -929,7 +921,7 @@
 		},
 	"/assets/img/media/KUSAMA_logo_1.png": {
 		"ft": 32768,
-		"iS": 12256,
+		"iS": 23199,
 		"oA": 0,
 		"oAP": "/assets/img/media/KUSAMA_logo_1.png",
 		"oF": 0,
@@ -976,7 +968,7 @@
 		},
 	"/assets/img/media/KUSAMA_logo_7.jpg": {
 		"ft": 16384,
-		"iS": 42493,
+		"iS": 65530,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/media/KUSAMA_logo_7.jpg",
@@ -987,7 +979,7 @@
 		},
 	"/assets/img/media/KUSAMA_logo_7.png": {
 		"ft": 32768,
-		"iS": 12247,
+		"iS": 21222,
 		"oA": 0,
 		"oAP": "/assets/img/media/KUSAMA_logo_7.png",
 		"oF": 0,
@@ -1020,7 +1012,7 @@
 		},
 	"/assets/img/og-card-2.png": {
 		"ft": 32768,
-		"iS": 95727,
+		"iS": 194161,
 		"oA": 0,
 		"oAP": "/assets/img/og-card-2.png",
 		"oF": 0,
@@ -1031,7 +1023,7 @@
 		},
 	"/assets/img/og-card.png": {
 		"ft": 32768,
-		"iS": 94627,
+		"iS": 193138,
 		"oA": 0,
 		"oAP": "/assets/img/og-card.png",
 		"oF": 0,
@@ -1042,7 +1034,7 @@
 		},
 	"/assets/img/square-black.png": {
 		"ft": 32768,
-		"iS": 202,
+		"iS": 2800,
 		"oA": 0,
 		"oAP": "/assets/img/square-black.png",
 		"oF": 0,
@@ -1053,7 +1045,7 @@
 		},
 	"/assets/img/square-pink.png": {
 		"ft": 32768,
-		"iS": 202,
+		"iS": 3911,
 		"oA": 0,
 		"oAP": "/assets/img/square-pink.png",
 		"oF": 0,
@@ -1146,7 +1138,7 @@
 		},
 	"/assets/img/teams/atoken.png": {
 		"ft": 32768,
-		"iS": 2055,
+		"iS": 3857,
 		"oA": 0,
 		"oAP": "/assets/img/teams/atoken.png",
 		"oF": 0,
@@ -1177,7 +1169,7 @@
 		},
 	"/assets/img/teams/blockxlabs.png": {
 		"ft": 32768,
-		"iS": 14442,
+		"iS": 38746,
 		"oA": 0,
 		"oAP": "/assets/img/teams/blockxlabs.png",
 		"oF": 0,
@@ -1220,7 +1212,7 @@
 		},
 	"/assets/img/teams/huobiwallet.png": {
 		"ft": 32768,
-		"iS": 1405,
+		"iS": 2300,
 		"oA": 0,
 		"oAP": "/assets/img/teams/huobiwallet.png",
 		"oF": 0,
@@ -1231,7 +1223,7 @@
 		},
 	"/assets/img/teams/mathwallet.png": {
 		"ft": 32768,
-		"iS": 4043,
+		"iS": 6290,
 		"oA": 0,
 		"oAP": "/assets/img/teams/mathwallet.png",
 		"oF": 0,
@@ -1284,7 +1276,7 @@
 		},
 	"/assets/img/teams/polkascan.png": {
 		"ft": 32768,
-		"iS": 14382,
+		"iS": 44415,
 		"oA": 0,
 		"oAP": "/assets/img/teams/polkascan.png",
 		"oF": 0,
@@ -1295,7 +1287,7 @@
 		},
 	"/assets/img/teams/polkawallet.png": {
 		"ft": 32768,
-		"iS": 2150,
+		"iS": 4091,
 		"oA": 0,
 		"oAP": "/assets/img/teams/polkawallet.png",
 		"oF": 0,
@@ -1306,7 +1298,7 @@
 		},
 	"/assets/img/teams/speckleos.png": {
 		"ft": 32768,
-		"iS": 7950,
+		"iS": 21621,
 		"oA": 0,
 		"oAP": "/assets/img/teams/speckleos.png",
 		"oF": 0,
@@ -1716,6 +1708,14 @@
 		"oAP": "/CNAME",
 		"oF": 0
 		},
+	"/confirmation-ty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/confirmation-ty.html",
+		"oF": 0
+		},
 	"/home.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1839,6 +1839,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/remarkable/index.html",
+		"oF": 0
+		},
+	"/signup-ty.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/signup-ty.html",
 		"oF": 0
 		},
 	"/terms.html": {
