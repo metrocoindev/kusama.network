@@ -17,102 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/.history/assets/fragments/footer_20200923121144.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/footer_20200923121144.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/footer_20201126152649.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/footer_20201126152649.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20200904163256.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20200904163256.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20201126145713.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20201126145713.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20201126145824.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20201126145824.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20201126150137.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20201126150137.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20201127170003.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20201127170003.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/header_20201127174312.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/header_20201127174312.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/privacy_20200709173340.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/privacy_20200709173340.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/privacy_20201126124748.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/privacy_20201126124748.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/privacy_20201126125507.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/privacy_20201126125507.html",
-		"oF": 0
-		},
-	"/.history/assets/fragments/privacy_20201126141028.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.history/assets/fragments/privacy_20201126141028.html",
-		"oF": 0
-		},
 	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -814,6 +718,19 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/assets/img/auctions-hero.png": {
+		"ft": 32768,
+		"iS": 198017,
+		"oA": 0,
+		"oAP": "/assets/img/auctions-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/img/bg-1.png": {
 		"ft": 32768,
@@ -1780,6 +1697,27 @@
 		"oAP": "/assets/kusama-brand-assets.zip",
 		"oF": 0
 		},
+	"/assets/pages/auctions/auctions.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/auctions.html",
+		"oF": 0
+		},
+	"/assets/pages/auctions/auctions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/auctions.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/assets/pages/global.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1858,6 +1796,14 @@
 		"hM": 1,
 		"oA": 0,
 		"oAP": "/terms.html",
+		"oF": 0
+		},
+	"/auctions.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/auctions.html",
 		"oF": 0
 		},
 	"/build/node_modules": {
