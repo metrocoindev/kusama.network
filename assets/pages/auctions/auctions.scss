@@ -2,7 +2,7 @@
 
 // -------------- #HOME STYLES
 
-#home {
+#auctions {
   // -------------- #TYPOGRAPHY
 
   color: var(--c-light);
@@ -103,78 +103,6 @@
         calc(var(--progress) / 20),
         0
       );
-    }
-  }
-
-  .icons-wrap {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3rem;
-
-    @media (min-width: 960px) {
-      justify-content: space-evenly;
-    }
-
-    .icon-wrap {
-      //   display: inline-flex;
-      //   flex-direction: column;
-      //   align-items: center;
-
-      .icon-name {
-        color: white;
-      }
-
-      .icon {
-        width: 3rem;
-        height: 3rem;
-        margin: 1rem;
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-
-        &.polkadot {
-          background-image: url("/assets/img/teams/polkadot.png");
-        }
-
-        &.acala {
-          background-image: url("/assets/img/teams/acala.png");
-        }
-
-        &.chainlink {
-          background-image: url("/assets/img/teams/chainlink.png");
-        }
-
-        &.moonbeam {
-          background-image: url("/assets/img/teams/moonbeam.png");
-        }
-
-        &.phala {
-          background-image: url("/assets/img/teams/phala.svg");
-        }
-
-        &.edgeware {
-          background-image: url("/assets/img/teams/edgeware.svg");
-        }
-      }
-    }
-  }
-
-  .join-ecosystem {
-    .icons-wrap {
-      .icon-wrap {
-        transform: translateY(50%);
-        opacity: 0;
-        transition: all 0.4s ease-in-out;
-        transition-delay: 1s;
-        will-change: all;
-      }
-
-      &.in-view {
-        .icon-wrap {
-          transform: none;
-          opacity: 1;
-        }
-      }
     }
   }
 
@@ -345,12 +273,6 @@
     }
   }
 
-  .join-ecosystem {
-    position: relative;
-    text-align: center;
-    padding-top: 9rem;
-  }
-
   .wrap__bottom {
     padding: 3rem 0;
 
@@ -359,11 +281,16 @@
     }
 
     li {
-      font-size: 1.4rem;
-      padding: 0 3rem;
-      line-height: 2;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       width: 100%;
+      line-height: 1.8rem;
+
+      &:before {
+        content: "\25A0	";
+        color: #e6007a;
+        position: absolute;
+        left: -1rem;
+      }
     }
 
     @media (min-width: 960px) {
