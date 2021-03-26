@@ -280,19 +280,6 @@
       line-height: 2;
     }
 
-    li {
-      margin-bottom: 1.5rem;
-      width: 100%;
-      line-height: 1.8rem;
-
-      &:before {
-        content: "\25A0	";
-        color: #e6007a;
-        position: absolute;
-        left: -1rem;
-      }
-    }
-
     @media (min-width: 960px) {
       .wrap-left {
         max-width: 560px;
@@ -401,6 +388,40 @@
   @media (min-width: 1200px) {
     .features {
       padding-right: 3rem;
+    }
+  }
+
+  #scamprevention {
+    li {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      line-height: 1.8rem;
+
+      &:before {
+        content: "\25A0	";
+        color: #e6007a;
+        position: absolute;
+        left: -1rem;
+      }
+    }
+  }
+
+  #faq {
+    a.active {
+      border-bottom: solid 2px var(--c-accent);
+    }
+
+    div.border-bottom {
+      border-color: #222 !important;
+    }
+
+    .material-icons {
+      display: none !important;
+    }
+
+    li {
+      width: auto;
+      clear: none;
     }
   }
 } //home

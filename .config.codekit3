@@ -25,6 +25,16 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
+	"/assets/css/auctions.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/auctions-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/contact.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1696,6 +1706,17 @@
 		"oA": 0,
 		"oAP": "/assets/kusama-brand-assets.zip",
 		"oF": 0
+		},
+	"/assets/pages/auctions/auctions.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/pages/auctions/auctions.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"/assets/pages/auctions/auctions.kit": {
 		"cB": 0,
