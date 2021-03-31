@@ -313,3 +313,15 @@ section {
   font-size: 2.5rem;
   line-height: 3rem;
 }
+
+.step-icon {
+  max-width: 160px;
+  position: relative;
+
+  &__number {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 47%;
+  }
+}

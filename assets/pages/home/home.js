@@ -1,5 +1,4 @@
 import Typed from "typed.js";
-import { gsap } from "gsap";
 
 const heroOpts = {
   strings: [
@@ -25,7 +24,6 @@ export const mapRange = (value, inMin, inMax, outMin, outMax) =>
 let parallaxEls;
 
 function init() {
-  new Typed(".typed-text-hero", heroOpts);
   new Typed(".typed-text-project", projectOpts);
 
   parallaxEls = document.querySelectorAll(".parallax");

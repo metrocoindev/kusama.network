@@ -212,21 +212,26 @@
       text-align: center;
       padding-top: 6rem;
       padding-bottom: calc(6rem + 3vh + 3vw);
+
       .treatment {
         margin-bottom: 3rem;
         img {
           display: inline-block;
           width: 100%;
           height: auto;
-          max-width: 768px;
+          max-width: 1092px;
         }
         .typed-text-wrap {
           white-space: nowrap;
           color: white;
           position: absolute;
-          bottom: 0;
+          top: 50%;
           left: 50%;
-          transform: translate3d(-50%, -100%, 0);
+          transform: translate(-50%, -50%);
+          .typed-text-hero {
+            font-size: 3.5vw;
+            font-weight: bolder;
+          }
           .typed-text {
             color: inherit;
           }
