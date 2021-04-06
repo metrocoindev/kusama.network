@@ -424,7 +424,19 @@
       clear: none;
     }
   }
-} //home
+
+  a[href]:not(.btn) {
+    color: var(--c-cyan);
+
+    &:visited {
+      color: var(--c-cyan);
+    }
+
+    &:hover {
+      color: var(--c-accent);
+    }
+  }
+} //auctions
 
 //Media Query Overwrites
 @media (min-width: 768px) {
