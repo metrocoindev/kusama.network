@@ -82,7 +82,7 @@
                         <div class="wrap">
                             <div class="wrap-right">
                                 <p>
-                                    The key to Kusama’s scalable multichain architecture, parachains connect to Kusama by leasing a slot on the Relay Chain for a period of up to 24 weeks. Leases are granted according to an unpermissioned auction process. As Polkadot’s canary network, parachain auctions will roll out first on Kusama for testing and optimization. Parachains will likely be onboarded to Kusama gradually at first to make sure everything is running smoothly, but no promises.
+                                    The key to Kusama’s scalable multichain architecture, parachains connect to the network by leasing a slot on the Relay Chain via permissionless auction. As Polkadot’s canary network, Kusama will roll out parachain auctions first for testing and optimization. Parachains will likely be onboarded to Kusama gradually at first to make sure everything is running smoothly, but no promises.
                                 </p>
                                 <p>
                                     <span class="font-weight-bolder">Expect Chaos</span>
@@ -102,12 +102,12 @@
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                                     <div class="border border-primary px-3 pt-2 pb-3 h-100">
-                                        <strong><span class="text-primary">1.</span> Determine a parachain design strategy and BUIDL</strong>
+                                        <strong><span class="text-primary">1.</span> Design a parachain and build it using <a href="http://www.substrate.io" target="_blank">Substrate</a></strong>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                                     <div class="border border-primary px-3 pt-2 pb-3 h-100">
-                                        <strong><span class="text-primary">2.</span> Test and optimize locally, then on a testnet like Rococo</strong>
+                                        <strong><span class="text-primary">2.</span> Test and optimize locally, then on a testnet like <a href="https://wiki.polkadot.network/docs/en/build-parachains-rococo#docsNav" target="_blank">Rococo</a></strong>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-4">
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                                     <div class="border border-primary px-3 pt-2 pb-3 h-100">
-                                        <strong><span class="text-primary">4.</span> Join an auction and bid away, for up to approximately 2 </strong>weeks
+                                        <strong><span class="text-primary">4.</span> Join an auction and bid away</strong>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-4">
@@ -139,7 +139,7 @@
                             <div class="row mb-3">
                                 <div class="col-12 col-lg-8">
                                     <h2>Auction mechanics</h2>
-                                    <p>Parachain slot auctions follow a modified candle auction format, where the exact endpoint of the auction is unknown by participants in order to prevent auction sniping (the strategy of bidding at the last moment) for more accurate price discovery.</p>
+                                    <p>Parachain slot auctions follow a modified <a href="https://wiki.polkadot.network/docs/en/learn-auction#mechanics-of-a-candle-auction" target="_blank">candle auction</a> format, where the exact endpoint of the auction is unknown by participants in order to prevent auction sniping (the strategy of bidding at the last moment) for more accurate price discovery.</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -150,7 +150,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">1</span>
                                         </div>
                                         <div>
-                                            Teams bid by specifying a contiguous range of 1-4 six-week lease periods and the amount of KSM they are willing to lock up for the duration of the chosen range.
+                                            Teams upload their parachain code and start bidding by specifying 1) a contiguous range of six-week lease periods and 2) the amount of KSM they are willing to lock up for the duration of the chosen range.
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">3</span>
                                         </div>
                                         <div>
-                                            At the close of the open bidding period, the precise moment of the auction’s close is randomly determined by a verifiable random function (VRF).
+                                            At the close of the auction, the precise moment of the auction’s close is randomly determined by a verifiable random function (VRF).
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">4</span>
                                         </div>
                                         <div>
-                                            The KSM amount bid by the winning team(s) remains locked for the duration of the lease period, after which can be unlocked. Teams can deploy their chain at the start of the lease period.
+                                            The KSM amount bid by the winning team(s) remains locked for the duration of the lease period, after which it can be unlocked. The parachain is automatically onboarded at the start of the lease period.
                                         </div>
                                     </div>
                                 </div>
@@ -194,14 +194,14 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">5</span>
                                         </div>
                                         <div>
-                                            Teams can extend their lease beyond 24 weeks by winning another auction before the conclusion of their current slot lease period.
+                                            Teams can extend their lease by winning another auction before the conclusion of their current slot lease period.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-12 col-sm-12 col-lg-4 mt-3 mt-lg-0 text-center">
-                                    <a href="#" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about auctions</a>
+                                    <a href="https://guide.kusama.network/docs/en/mirror-learn-auction" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about auctions</a>
                                 </div>
                             </div>
                         </div>
@@ -212,8 +212,7 @@
                             <div class="row mb-3">
                                 <div class="col-12 col-lg-8">
                                     <h2>Slot Crowdloans</h2>
-                                    <p>Some teams may choose to crowdfund their slot lease using Kusama’s built-in crowdloan mechanism, which allows people to contribute by agreeing to lock up their own KSM until the end of the lease period. Teams can reward their contributors however they see fit, and can structure their crowdloan in various ways, hosting it either natively on Kusama or on a 3rd-party platform.
-                                    </p>
+                                    <p>Some teams may choose to crowdfund their slot lease using Kusama’s built-in crowdloan mechanism, which allows people to contribute by agreeing to lock up their own KSM until the end of the lease period. Teams can reward their contributors however they see fit, and can structure their crowdloan in various ways, hosting it either natively on Kusama or on a 3rd-party platform.</p>
                                     <p class="font-weight-bolder">
                                         The typical process for a crowdloan conducted natively on Kusama will look something like this:
                                     </p>
@@ -227,7 +226,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">1</span>
                                         </div>
                                         <div>
-                                            The team deposits 10 KSM to create a crowdloan campaign, setting a maximum of total allowed contributions and a campaign end date (to account for the possibility of losing one or more auctions, a campaign can last for several auctions), and invites their community to participate.
+                                            The team creates a crowdloan campaign, setting a maximum of total allowed contributions and a campaign end date (to account for the possibility of losing one or more auctions, a campaign can last for several auctions), and invites their community to participate.
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +237,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">2</span>
                                         </div>
                                         <div>
-                                            Crowdloan contributors initiate a special transaction allocating transferable DOT to the campaign’s index (this is different from a normal send transaction, contributors should NOT send DOT to an external account).
+                                            Crowdloan contributors initiate a special transaction allocating transferable KSM to the campaign’s index (this is different from a normal send transaction, contributors should NOT send KSM to an external account).
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +248,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">3</span>
                                         </div>
                                         <div>
-                                            Crowdloan contributors initiate a special transaction allocating transferable KSM to the campaign’s index (this is different from a normal send transaction, contributors should NOT send KSM to an external account).
+                                            KSM contributions can be submitted throughout the duration of the crowdloan campaign or until an auction is won, up to the maximum amount of contributions set by the parachain team when creating the campaign.
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +259,7 @@
                                             <span class="step-icon__number font-weight-bolder display-4 text-white">4</span>
                                         </div>
                                         <div>
-                                            If there are enough contributions to win an auction, the full amount of KSM contributed to the campaign index will remain locked for the duration of the lease period and the chain can be deployed at the start of the lease period.
+                                            If there are enough contributions to win an auction, the full amount of KSM contributed to the campaign index will remain locked for the duration of the lease period and the chain is deployed at the start of the lease period.
                                         </div>
                                     </div>
                                 </div>
@@ -278,7 +277,7 @@
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-12 col-sm-12 col-lg-4 mt-3 mt-lg-0 text-center">
-                                    <a href="#" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about crowdloans</a>
+                                    <a href="https://guide.kusama.network/docs/en/mirror-learn-crowdloans" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about crowdloans</a>
                                 </div>
                             </div>
                         </div>
@@ -291,8 +290,8 @@
                                     <div class="container p-0">
                                         <div class="row mb-3">
                                             <div class="col-12">
-                                                <h2 class="text-center">How to Protect Yourself From Scams </h2>
-                                                <p>Scams are unfortunately a common occurrence in the blockchain space, and fake crowdloan campaigns may present an attractive target to scammers. Always stay alert to protect yourself and your non-refundable crypto assets. If you suspect you’re being scammed, please email the Web3 Foundation Support Team.
+                                                <h2 class="text-center">How to Protect Yourself From Crowdloan Scams</h2>
+                                                <p>Scams are unfortunately a real threat in the blockchain space that requires one to be vigilant. Fake crowdloan campaigns may present an attractive target for scammers. Always stay alert to protect yourself and your non-refundable crypto assets. If you suspect you’re being scammed, please email the <a href="http://support@web3.foundation" target="_blank">Web3 Foundation Support Team</a>.
                                                 </p>
                                                 <p class="font-weight-bolder">
                                                     Essential Rules of Thumb:
@@ -305,7 +304,7 @@
                                                         Remember that it’s easy for scammers to impersonate people online.
                                                     </li>
                                                     <li>
-                                                        If you are participating in a Polkadot-native crowdloan (see FAQ below), never send your DOT to an address. Native crowdloan contributions are made with a special transaction in polkadot.js using what’s called a campaign index, where contributed DOT remain locked until the end of the lease period. Legitimate teams will not ask you to send DOT to an address to participate in a Polkadot-native crowdloan.
+                                                        If you are participating in a Kusama-native crowdloan (see FAQ below), never send your KSM to an address. Native crowdloan contributions are made with a special transaction in Kusama using what’s called a campaign index, where contributed KSM remain locked until the end of the lease period. Legitimate teams will not ask you to send KSM to an address to participate in a Kusama-native crowdloan.
                                                     </li>
                                                     <li>
                                                         If participating in a non-native crowdloan campaign, always consult the official channels of parachain teams to verify the details of how to participate. Remember that scammers may try to impersonate official channels and team members. Never participate in a crowdloan you don’t trust, and never send tokens to someone you don’t trust.
@@ -319,7 +318,7 @@
 
                                         <div class="row justify-content-center">
                                             <div class="col-12 col-sm-12 col-lg-4 mt-3 mt-lg-0 text-center">
-                                                <a href="#" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about avoiding scams</a>
+                                                <a href="https://wiki.polkadot.network/docs/en/learn-scams#docsNav" target="_blank" class="btn btn-outline-primary px-3 py-2">Learn more about avoiding scams</a>
                                             </div>
                                         </div>
                                     </div>
@@ -365,7 +364,20 @@
                                                             <div class="collapse" id="panel-1">
                                                                 <div class="pt-1">
                                                                     <p>
-                                                                        text
+                                                                        Based on theoretical computing constraints, the current goal and expectation is that there will be approximately 100 parachain slots available on Kusama, though potential future optimizations (such as nested relay chains) may further increase this number. However, it will take some time before Kusama fully supports 100 parachain slots, and they are likely to be added to the system slowly over time. Not all of these slots will be allocated via parachain slot auctions (upon successful governance vote to begin auctions), as some will be used for governance-enabled <a href="https://polkadot.network/common-good-parachains-an-introduction-to-governance-allocated-parachain-slots/" target="_blank">common-good parachains</a> and parathreads.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">How and when will parathreads be enabled?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        We expect parathread functionality to launch some months after parachains are live. As with any network upgrade, it will need to be enabled through on-chain governance.
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -380,7 +392,72 @@
                                                             <div class="collapse" id="panel-2-1">
                                                                 <div class="pt-1">
                                                                     <p>
-                                                                        text
+                                                                        KSM locked for the duration of the parachain’s lease period remains in the account used by the parachain team to bid in the slot auction (or, in the case of a crowdloan, in the index for the campaign), and it is reserved and unavailable for other uses such as staking. At the conclusion of the slot lease period, anyone can request for the full amount of KSM to be unlocked, after which it is once again free to be used for activities such as transfers, withdrawals, and staking. For crowdloans, contributed KSM is locked from the moment the contribution is made until the end of the lease period, unless the crowdloan campaign is unsuccessful in securing a slot via auction, in which case contributed KSM can be unlocked at the end of the campaign as specified by the parachain team. All contributions must be returned before the crowdloan is fully deleted from the system.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2-2" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2-2">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">What does a slot lease cost?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2-2">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        The cost of leasing a parachain slot will purely be a function of market supply and demand, so it’s difficult to give any meaningful estimate as to what the bid requirement will be. However, it's important to realize that the actual cost of a parachain slot is not the same as the size of the parachain bid. Since parachain bonds are returned at the conclusion of the slot lease, the actual cost of running a parachain is best characterized as the opportunity cost of not staking those KSM for the duration of the lease period. The need to run <a href="https://wiki.polkadot.network/docs/en/learn-collator#docsNav" target="_blank">collators</a> is an additional but relatively minor cost. In general, for high throughput applications we expect parachains to be more economical than building with smart contracts or building a standalone blockchain.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2-3" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2-3">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">What happens if a parachain team loses a slot auction?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2-3">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        They will need to join a subsequent auction and bid again. Once <a href="https://wiki.polkadot.network/docs/en/learn-parathreads#docsNav" target="_blank">parathread</a> functionality is delivered (expected some months after parachains launch), parachain teams will have the option of connecting to Kusama as a parathread while they attempt to secure a dedicated slot. In the case of crowdloan campaigns, a campaign can be set up to last for several auctions to increase the chances of winning a slot. If a team does not win a slot by the end of their set crowdloan campaign endpoint, the total amount of contributed KSM can be once again unlocked and the team will need to initiate a new campaign if they wish to continue participating in auctions.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2-4" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2-4">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">What happens at the end of a parachain’s slot lease? Does the team lose its slot?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2-4">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        At the conclusion of the lease, the slot will go back up for auction and the team will need to bid for a slot again if they wish to retain one. Parachain slots are fungible, so teams do not need to always bid on the same slot. To avoid any downtime in connectivity and minimize the risk of losing a subsequent auction, teams can bid on and secure an adjacent slot before their current lease period ends. Teams can also choose to connect to Kusama as a <a href="https://wiki.polkadot.network/docs/en/learn-parathreads#docsNav" target="_blank">parathread</a> once that feature has launched.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2-5" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2-5">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">How can I follow the status of auctions in progress?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2-5">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        Those who have an active account on Kusama will be able to follow auctions in progress on UIs like <a href="https://polkadot.js.org/apps" target="_blank">polkadot.js</a>. There are also a number of 3rd party auction dashboards in development, though Web3 Foundation cannot vouch for their accuracy or safety so always be sure to do your own research.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-2-6" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2-6">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">Are there other ways of securing a parachain slot besides the candle auction?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-2-6">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        Parachains considered a <a href="https://polkadot.network/common-good-parachains-an-introduction-to-governance-allocated-parachain-slots/" target="_blank">common-good for</a> the entire network can be added to a slot via governance vote. Common-good chains are parachains viewed as a common-good, in the sense that they will benefit the entire network, for example a bridge that apps on Kusama could use to connect to an external network like Bitcoin or Ethereum. Chains are designated as a common-good parachain by network governance, which can vote to allocate the chain an empty slot on the Relay Chain, thereby bypassing the auction process. Common-good chains can be thought of as system-level and public utility chains that provide functions and benefits to the network that builders can tap into.
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -395,7 +472,46 @@
                                                             <div class="collapse" id="panel-3-1">
                                                                 <div class="pt-1">
                                                                     <p>
-                                                                        text
+                                                                        Parachain teams may or may not choose to use Kusama’s <a href="https://wiki.polkadot.network/docs/en/learn-crowdloans#docsNav" target="_blank">crowdloan</a> mechanism to help back their parachain slot lease bid. To participate in a crowdloan, users agree to lock up a portion of KSM for the duration of the parachain slot lease period, after which they can be unlocked. To participate in a crowdloan, you must have a transferable balance of KSM, so if your tokens are currently locked due to staking, you’ll need to unbond them in advance of the crowdloan campaign. The unbonding period on Kusama is currently 7 days. The details of individual crowdloan campaigns and the process for joining them will be determined and communicated by the respective parachain teams. <strong>Important: Kusama’s native crowdloan mechanism does NOT require users to send KSM from their own wallet/account to a third-party address to participate in a crowdloan. Native crowdloan contributions are made with a special transaction using what’s called a campaign index, whereby contributed KSM remain locked in the campaign index (if the auction is successful, contributed KSM remains locked from the moment the contribution is made until the end of the lease period). Legitimate teams conducting a crowdloan natively on Kusama will NOT ask you to send tokens to their address to participate. However, some teams may choose to conduct a crowdloan campaign using other mechanisms or platforms. In this case, be sure to never send tokens to anyone you don’t trust. Always check teams’ official channels to find out how to participate.</strong>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-3-2" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-3-2">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">What are the benefits of participating in a crowdloan campaign?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-3-2">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        Beyond the non-material benefits of supporting parachain teams’ success, teams may or may not offer additional rewards for participating in a crowdloan campaign. A project team who is sourcing the required KSM from its community may choose the type of award, if any, offered to participants for locking their KSM in the event of a winning bid. The decision on the type of award to offer for a successfully secured parachain slot is completely in the control of the project teams and will not receive any input from Web3 Foundation. Awards will take many forms and may vary widely among projects, from a network’s native token to certain goods or rights as directed by project teams and accepted by community members.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-3-3" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-3-3">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">What does it mean for a crowdloan campaign to be conducted ‘natively on Kusama’? What other options are there?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-3-3">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        A crowdloan conducted natively on Kusama is one that uses the Crowdloan pallet to interact directly with Kusama without the involvement of third parties. Participants in a Kusama-native crowdloan must have a transferable balance (not locked for staking, vesting, governance etc). Teams may also choose to conduct their crowdloan campaign through other methods, including on third party platforms like custodians and exchanges. <strong>Important: Kusama’s native crowdloan mechanism does NOT require users to send KSM from their own wallet/account to a third-party address to participate in a crowdloan. Native crowdloan contributions are made with a special transaction using what’s called a campaign index, whereby contributed KSM remain locked in the campaign index (if the auction is successful, contributed KSM remains locked from the moment the contribution is made until the end of the lease period). Legitimate teams conducting a crowdloan natively on Kusama will NOT ask you to send tokens to their address to participate. However, some crowdloan campaigns may take place non-natively using other mechanisms or platforms such as exchanges or custodians. In this case, make sure you trust all parties involved and be sure to never send tokens to anyone you don’t trust. Always check teams’ official channels to find out how to participate.</strong>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="border-bottom pb-2 mb-2">
+                                                            <div data-target="#panel-3-4" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-3-4">
+                                                                <span class="mb-0 text-primary py-1 font-weight-bold">Why do crowdloan campaigns have a maximum amount of total allowed contributions?</span>
+                                                                <i class="material-icons d-block text-dark">keyboard_arrow_right</i>
+                                                            </div>
+                                                            <div class="collapse" id="panel-3-4">
+                                                                <div class="pt-1">
+                                                                    <p>
+                                                                        Setting a maximum contribution amount allows teams to place a cap on the rewards that they are willing to offer crowdloan contributors. For example, if a team decides to award contributors with a certain distribution of their native token for every KSM contributed, this allows them to cap the maximum distribution they are willing to make. Teams may choose to reward contributors (or not) in any way they see fit, and Web3 Foundation has no input on what those rewards may consist of.
                                                                     </p>
                                                                 </div>
                                                             </div>
