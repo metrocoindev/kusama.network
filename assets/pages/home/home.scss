@@ -231,6 +231,9 @@
           .typed-text-hero {
             font-size: 3.5vw;
             font-weight: bolder;
+            @media (min-width: 992px) {
+              font-size: 55px;
+            }
           }
           .typed-text {
             color: inherit;
