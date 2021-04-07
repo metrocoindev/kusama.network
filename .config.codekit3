@@ -1505,6 +1505,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/assets/img/og/OG_Kusama_Network.png": {
+		"ft": 32768,
+		"iS": 926377,
+		"oA": 0,
+		"oAP": "/assets/img/og/OG_Kusama_Network.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/assets/img/og/og_kusama_slot_auctions_crowdloans.png": {
+		"ft": 32768,
+		"iS": 926493,
+		"oA": 0,
+		"oAP": "/assets/img/og/og_kusama_slot_auctions_crowdloans.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/assets/img/square-black.png": {
 		"ft": 32768,
 		"iS": 2800,
